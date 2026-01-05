@@ -3,6 +3,13 @@
 - Etudiant 1 : mode manuel &rarr;  <!-- -> --> Timéo BERNARD GOARANT
 - Etudiant 2 : mode Autonome &rarr;  <!-- → --> Gatien JAUMOUILLE
 - Etudiant 3 : mode verrouillage &rarr;  <!-- → --> Nolan RIBETTE
+## Explication des différents modes
+- ### Mode manuel
+  Le but de ce mode est de pourvoir politer le drone manuellement grâce à une télécommande LoRa. Sur cette télécommande, il sera possible de visionner en temps réel les données essentiels du drone comme la batterie et le gps par exemple. Une application sera développer en parallèle afin de pouvoir choisir le pilote (automatique ou manuel). 
+- ### Mode Autonome
+  
+- ### Mode verouillage
+  
 ## Organisation de google Drive
 Voici une explication de l'arborescence de notre google drive :
 - Compte rendu : contient les comptes rendu des différents sprints.
