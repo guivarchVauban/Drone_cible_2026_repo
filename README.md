@@ -1,6 +1,8 @@
 # Drone_cible_2026_repo
 ## Répartition des étudiants
-Gatieb
+- Etudiant 1 : mode manuel &rarr;  <!-- -> --> Timéo BERNARD GOARANT
+- Etudiant 2 : mode Autonome &rarr;  <!-- → --> Gatien JAUMOUILLE
+- Etudiant 3 : mode verrouillage &rarr;  <!-- → --> Nolan RIBETTE
 ## Organisation de google Drive
 Voici une explication de l'arborescence de notre google drive :
 - Compte rendu : contient les comptes rendu des différents sprints.
