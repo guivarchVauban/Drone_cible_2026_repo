@@ -1,4 +1,6 @@
 # Drone_cible_2026_repo
+## Répartition des étudiants
+
 ## Organisation de google Drive
 Voici une explication de l'arborescence de notre google drive :
 - Compte rendu : contient les comptes rendu des différents sprints.
