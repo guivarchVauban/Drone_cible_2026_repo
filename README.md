@@ -13,9 +13,9 @@
 ## Organisation du Github
 Vous avez à votre disposition plusieurs dossiers : 
 - [sysml](/sysml) : contient les différents sysml du projet.
-- simulation : contient les script de tests et de simulation du projet.
-- Docs technique : l'entièreté des documentation technique des membres du groupe.
-- code : vous y retrouverez le code source du projet.
+- [simulation](/simulation) : contient les script de tests et de simulation du projet.
+- [Docs technique](/docs_technique) : l'entièreté des documentation technique des membres du groupe.
+- [code](/code) : vous y retrouverez le code source du projet.
  
 ## Organisation de google Drive
 Voici une explication de l'arborescence de notre google drive :
