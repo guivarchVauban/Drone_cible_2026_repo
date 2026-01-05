@@ -12,4 +12,3 @@ Voici une explication de l'arborescence de notre google drive :
 
 Les trois membres du groupe sont Editeur sur l'ensemble du dossier de projet. 
 
-test gatien vscode github
