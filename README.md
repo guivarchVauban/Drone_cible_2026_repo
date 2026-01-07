@@ -9,6 +9,7 @@
 - ### Mode Autonome
   
 - ### Mode verouillage
+Le but de ce mode est de détecter visuellement un bateau via la caméra embarqué avec un retour vidéo en temps réel et avec une détection de la cible suite à ses formes, couleurs, gabarit.
 
 ## Organisation du Github
 Vous avez à votre disposition plusieurs dossiers : 
