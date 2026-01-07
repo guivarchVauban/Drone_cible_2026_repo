@@ -10,6 +10,7 @@
   Le but du mode autonome est que le drone puisse ce déplacer en autonomi sans assistance humaine. Pour cela on utilisera la méthode par Waypoints, c'est à dire qu'il faudra pré-définir des différentes coordonnées GPS qui serviront de "chek-points". Il faudra donc aussi crée une interface pour les données GPS ainsi que mettre en place une journalisation des parcours fait par le drone.
   
 - ### Mode verouillage
+  Le but de ce mode est de détecter visuellement un bateau via la caméra embarqué avec un retour vidéo en temps réel et avec une détection de la cible suite à ses formes, couleurs, gabarit.
 
 ## Organisation du Github
 Vous avez à votre disposition plusieurs dossiers : 
