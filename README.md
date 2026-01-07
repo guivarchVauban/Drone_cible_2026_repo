@@ -32,3 +32,15 @@ Voici une explication de l'arborescence de notre google drive :
 
 Les trois membres du groupe sont Editeur sur l'ensemble du dossier de projet. 
 
+## Synthèse – Technologies utilisées
+
+### • LoRa
+Technologie radio longue portée et basse consommation. Utilisée pour l’envoi de données simples sur de longues distances avec un faible débit.  Dans notre cas, la technologie **LoRa** est utilisée pour **lier la télécommande avec le drone cible**.
+
+### • Retour vidéo Wi-Fi unidirectionnel
+Transmission du flux vidéo uniquement de l’émetteur vers le récepteur. Offre un débit élevé, mais une portée plus limitée et une consommation plus importante que LoRa. Dans notre cas, elle est utilisée pour **la caméra du drone cible**.
+
+### • GPS
+Système de positionnement par satellite permettant de connaître la position, la vitesse et l’heure.  
+Indépendant des communications radio.
+
