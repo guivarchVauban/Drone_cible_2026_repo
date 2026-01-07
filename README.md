@@ -7,9 +7,8 @@
 - ### Mode manuel
   Le but de ce mode est de pourvoir politer le drone manuellement grâce à une télécommande LoRa. Sur cette télécommande, il sera possible de visionner en temps réel les données essentiels du drone comme la batterie et le gps par exemple. Une application sera développer en parallèle afin de pouvoir choisir le pilote (automatique ou manuel). 
 - ### Mode Autonome
-  Le but de ce mode est de détecter visuellement un bateau via la caméra embarqué avec un retour vidéo en temps réel et avec une détection de la cible suite à ses formes, couleurs, gabarit.
+  
 - ### Mode verouillage
-  Le but de ce mode est de détecter visuellement un bateau via la caméra embarqué avec un retour vidéo en temps réel et avec une détection de la cible suite à ses formes, couleurs, gabarit.
 
 ## Organisation du Github
 Vous avez à votre disposition plusieurs dossiers : 
