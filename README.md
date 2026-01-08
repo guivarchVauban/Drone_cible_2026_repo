@@ -3,6 +3,61 @@
 - Etudiant 1 : mode manuel &rarr;  <!-- -> --> Timéo BERNARD GOARANT
 - Etudiant 2 : mode Autonome &rarr;  <!-- → --> Gatien JAUMOUILLE
 - Etudiant 3 : mode verrouillage &rarr;  <!-- → --> Nolan RIBETTE
+## Résumé du projet
+### <u>Drone cible d’entraînement pour la Marine Nationale</u>
+
+Ce projet s’inscrit dans le cadre de l’épreuve E6 du BTS CIEL option A (IR) et résulte d’un partenariat entre le lycée Vauban (Brest) et la Marine Nationale.
+
+#### - Objectif du projet
+
+L’objectif est de concevoir un prototype de drone naval de surface destiné à servir de cible d’entraînement réaliste pour les navires de la Marine Nationale.
+Ce drone doit permettre de simuler des menaces modernes, similaires à celles observées récemment en mer Rouge (skiffs rapides ou drones navals armés).
+
+Le drone est conçu pour être détruit lors des exercices, ce qui impose une forte contrainte de coût et favorise l’utilisation de solutions DIY et de composants du commerce.
+
+#### - Fonctionnalités principales
+
+Le drone doit pouvoir fonctionner selon trois modes :
+
+- Mode manuel :
+  - Pilotage à distance via une télécommande utilisant une liaison LoRa (P2P).
+  - Supervision en temps réel (GPS, batterie, télémétrie).
+  - Bascule entre les différents modes de fonctionnement.
+
+- Mode autonome :
+  - Navigation automatique par waypoints GPS.
+  - Calcul de trajectoire, cap et vitesse.
+  - Maintien du cap via un régulateur (PID).
+  - Enregistrement et analyse des trajectoires.
+
+- Mode verrouillage (attaque simulée) :
+  - Détection visuelle d’une cible (bateau) via caméra embarquée.
+  - Validation du verrouillage par l’opérateur.
+  - Guidage automatique vers la cible avec ajustement dynamique de la vitesse.
+  - Retour vidéo en streaming temps réel.
+
+### Architecture et technologies
+
+- ROS 2 pour l’architecture logicielle (nœuds, topics, modes).
+- C++ et Python pour le développement.
+- Docker pour le déploiement des services.
+- OpenCV pour le traitement d’image.
+- Simulation (Webots ou Gazebo) avant essais réels.
+- Outils : Linux, Qt, Github, MagicDraw (SYSML), Gantt Project.
+
+### Contraintes et planning 
+
+- Livraison du projet : avant le 30 juin 2025
+- Tests terrestres obligatoires avant essais en mer.
+- Budget limité (optimisation des coûts impérative).
+- Planning structuré en revues (R1, R2, R3) et soutenance finale.
+
+### Résultat attendu
+
+- Un prototype fonctionnel capable d’être utilisé comme cible d’entraînement.
+- À défaut, une démonstration complète sur drone terrestre validant les modes manuel et/ou autonome.
+- Le projet sert également de preuve de concept pour l’utilisation de technologies low-cost dans un contexte militaire.
+
 ## Explication des différents modes
 - ### Mode manuel
   Le but de ce mode est de pourvoir politer le drone manuellement grâce à une télécommande LoRa. Sur cette télécommande, il sera possible de visionner en temps réel les données essentiels du drone comme la batterie et le gps par exemple. Une application sera développer en parallèle afin de pouvoir choisir le pilote (automatique ou manuel). 
