@@ -1,7 +1,8 @@
 Temps : 12'35
 
 
-Prendre le temps de se présenter
+Prendre le temps de se présenter pour ne pas rentrer trop vite.  
+
 Corriger "Présentation" sur Diapo Contexte
 
 S'attarder davantage sur le scénario
@@ -17,6 +18,7 @@ Faire un schéma du mode autonoome pour que l'on comprenne mieux.
 Corriger Arboressence -> Arborescence
 
 Pas terrible la génération d'images par IA pour les arborescence. 
+
 Sur Image IA : Dossier Code dans le dossier Simulation
 
 Quelle organisation sur Google Drive ? Remplacer par Classement et Remplacer Gestion des tâches par gestion de projet.
