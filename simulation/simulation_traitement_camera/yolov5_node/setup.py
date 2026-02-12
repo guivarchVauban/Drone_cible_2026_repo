@@ -8,8 +8,7 @@ setup(
     packages=[package_name],
     install_requires=['setuptools', 'torch', 'numpy<2', 'opencv-python', 'pandas'],
     zip_safe=True,
-    author='You',
-    author_email='you@example.com',
+    author='Nolan',
     description='Boat detection node with YOLOv5',
     entry_points={
         'console_scripts': [
