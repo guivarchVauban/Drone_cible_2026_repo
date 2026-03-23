@@ -1,0 +1,3 @@
+[console_scripts]
+imu_publisher = imu_node.imu_publisher:main
+

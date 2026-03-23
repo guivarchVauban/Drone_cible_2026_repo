@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/node_consigne/node_consigne.egg-info/PKG-INFO
+../../build/node_consigne/node_consigne.egg-info/SOURCES.txt
+../../build/node_consigne/node_consigne.egg-info/dependency_links.txt
+../../build/node_consigne/node_consigne.egg-info/entry_points.txt
+../../build/node_consigne/node_consigne.egg-info/requires.txt
+../../build/node_consigne/node_consigne.egg-info/top_level.txt
+../../build/node_consigne/node_consigne.egg-info/zip-safe
+node_consigne/__init__.py
+node_consigne/node_consigne.py
+resource/node_consigne
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,27 @@
+[1.264s] Invoking command in '/root/ros_ws/src/imu_node': PYTHONPATH=/root/ros_ws/build/imu_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/imu_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node build --build-base /root/ros_ws/build/imu_node/build install --record /root/ros_ws/build/imu_node/install.log --single-version-externally-managed install_data
+[1.520s] running egg_info
+[1.521s] writing ../../build/imu_node/imu_node.egg-info/PKG-INFO
+[1.521s] writing dependency_links to ../../build/imu_node/imu_node.egg-info/dependency_links.txt
+[1.523s] writing entry points to ../../build/imu_node/imu_node.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../build/imu_node/imu_node.egg-info/requires.txt
+[1.529s] writing top-level names to ../../build/imu_node/imu_node.egg-info/top_level.txt
+[1.533s] reading manifest file '../../build/imu_node/imu_node.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../build/imu_node/imu_node.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.535s] copying imu_node/imu_publisher_back.py -> /root/ros_ws/build/imu_node/build/lib/imu_node
+[1.535s] copying imu_node/imu_publisher.py -> /root/ros_ws/build/imu_node/build/lib/imu_node
+[1.536s] running install
+[1.536s] running install_lib
+[1.537s] copying /root/ros_ws/build/imu_node/build/lib/imu_node/imu_publisher_back.py -> /root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node
+[1.538s] copying /root/ros_ws/build/imu_node/build/lib/imu_node/imu_publisher.py -> /root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node
+[1.538s] byte-compiling /root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node/imu_publisher_back.py to imu_publisher_back.cpython-310.pyc
+[1.540s] byte-compiling /root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node/imu_publisher.py to imu_publisher.cpython-310.pyc
+[1.543s] running install_data
+[1.543s] running install_egg_info
+[1.546s] removing '/root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.547s] Copying ../../build/imu_node/imu_node.egg-info to /root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node-0.0.0-py3.10.egg-info
+[1.548s] running install_scripts
+[1.579s] Installing imu_publisher script to /root/ros_ws/install/imu_node/lib/imu_node
+[1.580s] writing list of installed files to '/root/ros_ws/build/imu_node/install.log'
+[1.682s] Invoked command in '/root/ros_ws/src/imu_node' returned '0': PYTHONPATH=/root/ros_ws/build/imu_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/imu_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node build --build-base /root/ros_ws/build/imu_node/build install --record /root/ros_ws/build/imu_node/install.log --single-version-externally-managed install_data

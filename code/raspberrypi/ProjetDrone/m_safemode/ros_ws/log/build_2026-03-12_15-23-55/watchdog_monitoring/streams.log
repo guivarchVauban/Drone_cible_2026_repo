@@ -1,0 +1,24 @@
+[0.852s] Invoking command in '/root/ros_ws/monitorWatchdog/src': PYTHONPATH=/root/ros_ws/build/watchdog_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/watchdog_monitoring build --build-base /root/ros_ws/build/watchdog_monitoring/build install --record /root/ros_ws/build/watchdog_monitoring/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.066s] writing ../../build/watchdog_monitoring/watchdog_monitoring.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../../build/watchdog_monitoring/watchdog_monitoring.egg-info/dependency_links.txt
+[1.067s] writing entry points to ../../build/watchdog_monitoring/watchdog_monitoring.egg-info/entry_points.txt
+[1.068s] writing requirements to ../../build/watchdog_monitoring/watchdog_monitoring.egg-info/requires.txt
+[1.068s] writing top-level names to ../../build/watchdog_monitoring/watchdog_monitoring.egg-info/top_level.txt
+[1.071s] reading manifest file '../../build/watchdog_monitoring/watchdog_monitoring.egg-info/SOURCES.txt'
+[1.072s] writing manifest file '../../build/watchdog_monitoring/watchdog_monitoring.egg-info/SOURCES.txt'
+[1.072s] running build
+[1.072s] running build_py
+[1.073s] copying watchdog_monitoring/watchdog_node.py -> /root/ros_ws/build/watchdog_monitoring/build/lib/watchdog_monitoring
+[1.073s] running install
+[1.073s] running install_lib
+[1.074s] copying /root/ros_ws/build/watchdog_monitoring/build/lib/watchdog_monitoring/watchdog_node.py -> /root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages/watchdog_monitoring
+[1.075s] byte-compiling /root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages/watchdog_monitoring/watchdog_node.py to watchdog_node.cpython-310.pyc
+[1.075s] running install_data
+[1.076s] running install_egg_info
+[1.078s] removing '/root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages/watchdog_monitoring-0.0.0-py3.10.egg-info' (and everything under it)
+[1.078s] Copying ../../build/watchdog_monitoring/watchdog_monitoring.egg-info to /root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages/watchdog_monitoring-0.0.0-py3.10.egg-info
+[1.079s] running install_scripts
+[1.105s] Installing watchdog_node script to /root/ros_ws/install/watchdog_monitoring/lib/watchdog_monitoring
+[1.106s] writing list of installed files to '/root/ros_ws/build/watchdog_monitoring/install.log'
+[1.169s] Invoked command in '/root/ros_ws/monitorWatchdog/src' returned '0': PYTHONPATH=/root/ros_ws/build/watchdog_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/watchdog_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/watchdog_monitoring build --build-base /root/ros_ws/build/watchdog_monitoring/build install --record /root/ros_ws/build/watchdog_monitoring/install.log --single-version-externally-managed install_data

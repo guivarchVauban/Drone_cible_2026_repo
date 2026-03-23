@@ -1,0 +1,21 @@
+[2.344s] Invoking command in '/root/ros_ws/src/node_consigne': PYTHONPATH=/root/ros_ws/build/node_consigne/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/node_consigne/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_consigne build --build-base /root/ros_ws/build/node_consigne/build install --record /root/ros_ws/build/node_consigne/install.log --single-version-externally-managed install_data
+[2.784s] running egg_info
+[2.786s] writing ../../build/node_consigne/node_consigne.egg-info/PKG-INFO
+[2.787s] writing dependency_links to ../../build/node_consigne/node_consigne.egg-info/dependency_links.txt
+[2.788s] writing entry points to ../../build/node_consigne/node_consigne.egg-info/entry_points.txt
+[2.789s] writing requirements to ../../build/node_consigne/node_consigne.egg-info/requires.txt
+[2.790s] writing top-level names to ../../build/node_consigne/node_consigne.egg-info/top_level.txt
+[2.794s] reading manifest file '../../build/node_consigne/node_consigne.egg-info/SOURCES.txt'
+[2.796s] writing manifest file '../../build/node_consigne/node_consigne.egg-info/SOURCES.txt'
+[2.797s] running build
+[2.799s] running build_py
+[2.800s] running install
+[2.801s] running install_lib
+[2.803s] running install_data
+[2.808s] running install_egg_info
+[2.808s] removing '/root/ros_ws/install/node_consigne/lib/python3.10/site-packages/node_consigne-0.0.0-py3.10.egg-info' (and everything under it)
+[2.809s] Copying ../../build/node_consigne/node_consigne.egg-info to /root/ros_ws/install/node_consigne/lib/python3.10/site-packages/node_consigne-0.0.0-py3.10.egg-info
+[2.810s] running install_scripts
+[2.857s] Installing node_consigne script to /root/ros_ws/install/node_consigne/lib/node_consigne
+[2.858s] writing list of installed files to '/root/ros_ws/build/node_consigne/install.log'
+[3.039s] Invoked command in '/root/ros_ws/src/node_consigne' returned '0': PYTHONPATH=/root/ros_ws/build/node_consigne/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/node_consigne/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_consigne build --build-base /root/ros_ws/build/node_consigne/build install --record /root/ros_ws/build/node_consigne/install.log --single-version-externally-managed install_data

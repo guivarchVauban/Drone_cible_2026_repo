@@ -1,0 +1,1 @@
+ros2 topic pub /set_robot_mode std_msgs/String "data: '0'"

@@ -1,0 +1,4 @@
+[console_scripts]
+gps_real = gps_simulator.gps_real_node:main
+gps_simulator = gps_simulator.gps_simulator_node:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_mode_node = robot_mode_pkg.robot_mode_node:main
+

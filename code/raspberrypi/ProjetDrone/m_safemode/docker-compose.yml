@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  ros2:
+    build: .
+    container_name: ros2_watchdog
+    network_mode: host
+    restart: always
+    privileged: true
+
+    environment:
+      - ROS_DOMAIN_ID=52
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - "/home/util/ProjetDrone/m_safemode/ros_ws:/root/ros_ws"
+      - /dev:/dev
+
+    tty: true

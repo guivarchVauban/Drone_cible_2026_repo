@@ -1,0 +1,21 @@
+[0.912s] Invoking command in '/root/ros_ws/topic/src/robot_mode_pkg': PYTHONPATH=/root/ros_ws/build/robot_mode_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/robot_mode_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_mode_pkg build --build-base /root/ros_ws/build/robot_mode_pkg/build install --record /root/ros_ws/build/robot_mode_pkg/install.log --single-version-externally-managed install_data
+[1.135s] running egg_info
+[1.137s] writing ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/PKG-INFO
+[1.137s] writing dependency_links to ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/dependency_links.txt
+[1.138s] writing entry points to ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/entry_points.txt
+[1.139s] writing requirements to ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/requires.txt
+[1.139s] writing top-level names to ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/top_level.txt
+[1.142s] reading manifest file '../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/SOURCES.txt'
+[1.144s] writing manifest file '../../../build/robot_mode_pkg/robot_mode_pkg.egg-info/SOURCES.txt'
+[1.144s] running build
+[1.144s] running build_py
+[1.144s] running install
+[1.145s] running install_lib
+[1.146s] running install_data
+[1.147s] running install_egg_info
+[1.149s] removing '/root/ros_ws/install/robot_mode_pkg/lib/python3.10/site-packages/robot_mode_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.149s] Copying ../../../build/robot_mode_pkg/robot_mode_pkg.egg-info to /root/ros_ws/install/robot_mode_pkg/lib/python3.10/site-packages/robot_mode_pkg-0.0.0-py3.10.egg-info
+[1.150s] running install_scripts
+[1.179s] Installing robot_mode_node script to /root/ros_ws/install/robot_mode_pkg/lib/robot_mode_pkg
+[1.180s] writing list of installed files to '/root/ros_ws/build/robot_mode_pkg/install.log'
+[1.255s] Invoked command in '/root/ros_ws/topic/src/robot_mode_pkg' returned '0': PYTHONPATH=/root/ros_ws/build/robot_mode_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/robot_mode_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_mode_pkg build --build-base /root/ros_ws/build/robot_mode_pkg/build install --record /root/ros_ws/build/robot_mode_pkg/install.log --single-version-externally-managed install_data

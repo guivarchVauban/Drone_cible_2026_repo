@@ -1,0 +1,241 @@
+[0.298s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fff4a33f100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fff4a2fcc10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fff4a2fcc10>>, mixin_verb=('build',))
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.567s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.568s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.569s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.569s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros_ws'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(Waypoints) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_simulator) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_simulator' with type 'ros.ament_python' and name 'gps_simulator'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_node) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_node' with type 'ros.ament_python' and name 'imu_node'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_consigne) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node_consigne' with type 'ros.ament_python' and name 'node_consigne'
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_target' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'gps_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.672s] DEBUG:colcon.colcon_core.verb:Building package 'gps_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_ws/build/gps_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_ws/install/gps_simulator', 'merge_install': False, 'path': '/root/ros_ws/src/gps_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_target' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.673s] DEBUG:colcon.colcon_core.verb:Building package 'imu_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_ws/build/imu_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_ws/install/imu_node', 'merge_install': False, 'path': '/root/ros_ws/src/imu_node', 'symlink_install': False, 'test_result_base': None}
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'node_consigne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'node_consigne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_ws/build/node_consigne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_ws/install/node_consigne', 'merge_install': False, 'path': '/root/ros_ws/src/node_consigne', 'symlink_install': False, 'test_result_base': None}
+[0.674s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.677s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_ws/src/gps_simulator' with build type 'ament_python'
+[0.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_simulator', 'ament_prefix_path')
+[0.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/ament_prefix_path.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/ament_prefix_path.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/ament_prefix_path.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_ws/src/imu_node' with build type 'ament_python'
+[0.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_node', 'ament_prefix_path')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/imu_node/share/imu_node/hook/ament_prefix_path.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/imu_node/share/imu_node/hook/ament_prefix_path.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/imu_node/share/imu_node/hook/ament_prefix_path.sh'
+[0.716s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.729s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_ws/src/node_consigne' with build type 'ament_python'
+[0.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_consigne', 'ament_prefix_path')
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/node_consigne/share/node_consigne/hook/ament_prefix_path.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/node_consigne/share/node_consigne/hook/ament_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/node_consigne/share/node_consigne/hook/ament_prefix_path.sh'
+[0.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.261s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_ws/src/gps_simulator'
+[1.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_ws/src/imu_node'
+[1.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.331s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_ws/src/node_consigne'
+[2.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_ws/src/node_consigne': PYTHONPATH=/root/ros_ws/build/node_consigne/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/node_consigne/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_consigne build --build-base /root/ros_ws/build/node_consigne/build install --record /root/ros_ws/build/node_consigne/install.log --single-version-externally-managed install_data
+[3.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_ws/src/gps_simulator': PYTHONPATH=/root/ros_ws/build/gps_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_simulator build --build-base /root/ros_ws/build/gps_simulator/build install --record /root/ros_ws/build/gps_simulator/install.log --single-version-externally-managed install_data
+[3.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_ws/src/imu_node': PYTHONPATH=/root/ros_ws/build/imu_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/imu_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node build --build-base /root/ros_ws/build/imu_node/build install --record /root/ros_ws/build/imu_node/install.log --single-version-externally-managed install_data
+[3.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_ws/src/imu_node' returned '0': PYTHONPATH=/root/ros_ws/build/imu_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/imu_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node build --build-base /root/ros_ws/build/imu_node/build install --record /root/ros_ws/build/imu_node/install.log --single-version-externally-managed install_data
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node' for CMake module files
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node' for CMake config files
+[3.711s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node/lib'
+[3.712s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node/bin'
+[3.712s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node/lib/pkgconfig/imu_node.pc'
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node/lib/python3.10/site-packages'
+[3.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_node', 'pythonpath')
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/imu_node/share/imu_node/hook/pythonpath.ps1'
+[3.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/imu_node/share/imu_node/hook/pythonpath.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/imu_node/share/imu_node/hook/pythonpath.sh'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/imu_node/bin'
+[3.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_node)
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/imu_node/share/imu_node/package.ps1'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_ws/install/imu_node/share/imu_node/package.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/imu_node/share/imu_node/package.sh'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/imu_node/share/imu_node/package.bash'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/imu_node/share/imu_node/package.zsh'
+[3.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_ws/install/imu_node/share/colcon-core/packages/imu_node)
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator' for CMake module files
+[3.742s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator' for CMake config files
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator/lib'
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator/bin'
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator/lib/pkgconfig/gps_simulator.pc'
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages'
+[3.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_simulator', 'pythonpath')
+[3.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/pythonpath.ps1'
+[3.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_ws/src/gps_simulator' returned '0': PYTHONPATH=/root/ros_ws/build/gps_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_simulator build --build-base /root/ros_ws/build/gps_simulator/build install --record /root/ros_ws/build/gps_simulator/install.log --single-version-externally-managed install_data
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/pythonpath.dsv'
+[3.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/gps_simulator/share/gps_simulator/hook/pythonpath.sh'
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/gps_simulator/bin'
+[3.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_simulator)
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/gps_simulator/share/gps_simulator/package.ps1'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_ws/install/gps_simulator/share/gps_simulator/package.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/gps_simulator/share/gps_simulator/package.sh'
+[3.753s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/gps_simulator/share/gps_simulator/package.bash'
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/gps_simulator/share/gps_simulator/package.zsh'
+[3.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_ws/install/gps_simulator/share/colcon-core/packages/gps_simulator)
+[3.767s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne' for CMake module files
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne' for CMake config files
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne/lib'
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne/bin'
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne/lib/pkgconfig/node_consigne.pc'
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne/lib/python3.10/site-packages'
+[3.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_consigne', 'pythonpath')
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/node_consigne/share/node_consigne/hook/pythonpath.ps1'
+[3.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_ws/src/node_consigne' returned '0': PYTHONPATH=/root/ros_ws/build/node_consigne/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/node_consigne/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_consigne build --build-base /root/ros_ws/build/node_consigne/build install --record /root/ros_ws/build/node_consigne/install.log --single-version-externally-managed install_data
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_ws/install/node_consigne/share/node_consigne/hook/pythonpath.dsv'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_ws/install/node_consigne/share/node_consigne/hook/pythonpath.sh'
+[3.776s] Level 1:colcon.colcon_core.environment:checking '/root/ros_ws/install/node_consigne/bin'
+[3.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_consigne)
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/node_consigne/share/node_consigne/package.ps1'
+[3.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_ws/install/node_consigne/share/node_consigne/package.dsv'
+[3.779s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/node_consigne/share/node_consigne/package.sh'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/node_consigne/share/node_consigne/package.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_ws/install/node_consigne/share/node_consigne/package.zsh'
+[3.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_ws/install/node_consigne/share/colcon-core/packages/node_consigne)
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.789s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.802s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.802s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[3.802s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_ws/install/local_setup.ps1'
+[3.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_ws/install/_local_setup_util_ps1.py'
+[3.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_ws/install/setup.ps1'
+[3.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_ws/install/local_setup.sh'
+[3.810s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_ws/install/_local_setup_util_sh.py'
+[3.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_ws/install/setup.sh'
+[3.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_ws/install/local_setup.bash'
+[3.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_ws/install/setup.bash'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_ws/install/local_setup.zsh'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_ws/install/setup.zsh'

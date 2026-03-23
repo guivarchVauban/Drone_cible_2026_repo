@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/PKG-INFO
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/SOURCES.txt
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/dependency_links.txt
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/entry_points.txt
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/requires.txt
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/top_level.txt
+../../../build/watchdog_monitoring/watchdog_monitoring.egg-info/zip-safe
+resource/watchdog_monitoring
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+watchdog_monitoring/__init__.py
+watchdog_monitoring/watchdog_node.py

@@ -1,0 +1,23 @@
+[2.346s] Invoking command in '/root/ros_ws/src/gps_simulator': PYTHONPATH=/root/ros_ws/build/gps_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_simulator build --build-base /root/ros_ws/build/gps_simulator/build install --record /root/ros_ws/build/gps_simulator/install.log --single-version-externally-managed install_data
+[2.781s] running egg_info
+[2.781s] writing ../../build/gps_simulator/gps_simulator.egg-info/PKG-INFO
+[2.783s] writing dependency_links to ../../build/gps_simulator/gps_simulator.egg-info/dependency_links.txt
+[2.784s] writing entry points to ../../build/gps_simulator/gps_simulator.egg-info/entry_points.txt
+[2.784s] writing requirements to ../../build/gps_simulator/gps_simulator.egg-info/requires.txt
+[2.784s] writing top-level names to ../../build/gps_simulator/gps_simulator.egg-info/top_level.txt
+[2.790s] reading manifest file '../../build/gps_simulator/gps_simulator.egg-info/SOURCES.txt'
+[2.792s] adding license file 'LICENCE'
+[2.792s] writing manifest file '../../build/gps_simulator/gps_simulator.egg-info/SOURCES.txt'
+[2.794s] running build
+[2.795s] running build_py
+[2.795s] running install
+[2.795s] running install_lib
+[2.797s] running install_data
+[2.797s] running install_egg_info
+[2.802s] removing '/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages/gps_simulator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.802s] Copying ../../build/gps_simulator/gps_simulator.egg-info to /root/ros_ws/install/gps_simulator/lib/python3.10/site-packages/gps_simulator-0.0.0-py3.10.egg-info
+[2.805s] running install_scripts
+[2.848s] Installing gps_real script to /root/ros_ws/install/gps_simulator/lib/gps_simulator
+[2.849s] Installing gps_simulator script to /root/ros_ws/install/gps_simulator/lib/gps_simulator
+[2.850s] writing list of installed files to '/root/ros_ws/build/gps_simulator/install.log'
+[2.939s] Invoked command in '/root/ros_ws/src/gps_simulator' returned '0': PYTHONPATH=/root/ros_ws/build/gps_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/gps_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_simulator build --build-base /root/ros_ws/build/gps_simulator/build install --record /root/ros_ws/build/gps_simulator/install.log --single-version-externally-managed install_data
