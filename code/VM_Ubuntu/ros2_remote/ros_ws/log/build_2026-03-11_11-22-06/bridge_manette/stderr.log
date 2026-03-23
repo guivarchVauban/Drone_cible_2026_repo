@@ -1,0 +1,5 @@
+  File "/home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette/bridge_manette_node.py", line 35
+    x0_mapped = int(x0+1)*127.5)
+                               ^
+SyntaxError: unmatched ')'
+

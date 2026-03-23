@@ -1,0 +1,25 @@
+[0.598s] Invoking command in '/home/util/Documents/Projet/ros2_remote/ros_ws/src/bridge_manette': PYTHONPATH=/home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bridge_manette build --build-base /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build install --record /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/install.log --single-version-externally-managed install_data
+[0.820s] running egg_info
+[0.820s] writing ../../build/bridge_manette/bridge_manette.egg-info/PKG-INFO
+[0.820s] writing dependency_links to ../../build/bridge_manette/bridge_manette.egg-info/dependency_links.txt
+[0.820s] writing entry points to ../../build/bridge_manette/bridge_manette.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../build/bridge_manette/bridge_manette.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/bridge_manette/bridge_manette.egg-info/top_level.txt
+[0.826s] reading manifest file '../../build/bridge_manette/bridge_manette.egg-info/SOURCES.txt'
+[0.828s] adding license file 'LICENSE'
+[0.829s] writing manifest file '../../build/bridge_manette/bridge_manette.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.829s] running build_py
+[0.829s] copying bridge_manette/bridge_manette_node.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette
+[0.829s] running install
+[0.829s] running install_lib
+[0.830s] copying /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette/bridge_manette_node.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette
+[0.830s] byte-compiling /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette/bridge_manette_node.py to bridge_manette_node.cpython-310.pyc
+[0.831s] running install_data
+[0.831s] running install_egg_info
+[0.835s] removing '/home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette-0.0.0-py3.10.egg-info' (and everything under it)
+[0.838s] Copying ../../build/bridge_manette/bridge_manette.egg-info to /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette-0.0.0-py3.10.egg-info
+[0.838s] running install_scripts
+[0.859s] Installing bridge_manette_node script to /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/bridge_manette
+[0.859s] writing list of installed files to '/home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/install.log'
+[0.896s] Invoked command in '/home/util/Documents/Projet/ros2_remote/ros_ws/src/bridge_manette' returned '0': PYTHONPATH=/home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bridge_manette build --build-base /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build install --record /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/bridge_manette/hook/pythonpath.ps1
+source;share/bridge_manette/hook/pythonpath.dsv
+source;share/bridge_manette/hook/pythonpath.sh
+source;share/bridge_manette/hook/ament_prefix_path.ps1
+source;share/bridge_manette/hook/ament_prefix_path.dsv
+source;share/bridge_manette/hook/ament_prefix_path.sh

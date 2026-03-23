@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/bridge_manette/bridge_manette.egg-info/PKG-INFO
+writing dependency_links to ../../build/bridge_manette/bridge_manette.egg-info/dependency_links.txt
+writing entry points to ../../build/bridge_manette/bridge_manette.egg-info/entry_points.txt
+writing requirements to ../../build/bridge_manette/bridge_manette.egg-info/requires.txt
+writing top-level names to ../../build/bridge_manette/bridge_manette.egg-info/top_level.txt
+reading manifest file '../../build/bridge_manette/bridge_manette.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/bridge_manette/bridge_manette.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bridge_manette/bridge_manette_node.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette
+copying bridge_manette/bridge_manette_node_back.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette
+running install
+running install_lib
+copying /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette/bridge_manette_node.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette
+copying /home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/build/lib/bridge_manette/bridge_manette_node_back.py -> /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette
+byte-compiling /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette/bridge_manette_node.py to bridge_manette_node.cpython-310.pyc
+byte-compiling /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette/bridge_manette_node_back.py to bridge_manette_node_back.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/bridge_manette/bridge_manette.egg-info to /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/python3.10/site-packages/bridge_manette-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge_manette_node script to /home/util/Documents/Projet/ros2_remote/ros_ws/install/bridge_manette/lib/bridge_manette
+writing list of installed files to '/home/util/Documents/Projet/ros2_remote/ros_ws/build/bridge_manette/install.log'
