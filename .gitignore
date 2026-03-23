@@ -1,0 +1,12 @@
+# core dumps
+core.*
+*.core
+
+# ROS build
+build/
+install/
+log/
+
+# fichiers temporaires
+*.log
+*.tmp
