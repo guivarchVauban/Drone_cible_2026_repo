@@ -1,3 +1,0 @@
-[console_scripts]
-watchdog_node = watchdog_monitoring.watchdog_node:main
-

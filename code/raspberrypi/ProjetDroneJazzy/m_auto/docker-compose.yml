@@ -1,0 +1,20 @@
+services:
+  ros_auto:
+    build: .
+    container_name: ros2_auto_jz
+    restart: always
+    network_mode: host
+    privileged: true
+
+    environment:
+      - ROS_DOMAIN_ID=52
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+
+    volumes:
+      - "/home/util/ProjetDrone/m_auto/ros_ws:/root/ros_ws"
+      - /dev:/dev
+
+    tty: true

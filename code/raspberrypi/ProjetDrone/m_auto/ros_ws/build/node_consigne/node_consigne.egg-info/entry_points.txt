@@ -1,3 +1,0 @@
-[console_scripts]
-node_consigne = node_consigne.node_consigne:main
-

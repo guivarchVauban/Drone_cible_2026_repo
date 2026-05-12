@@ -1,6 +1,0 @@
-source;share/node_consigne/hook/pythonpath.ps1
-source;share/node_consigne/hook/pythonpath.dsv
-source;share/node_consigne/hook/pythonpath.sh
-source;share/node_consigne/hook/ament_prefix_path.ps1
-source;share/node_consigne/hook/ament_prefix_path.dsv
-source;share/node_consigne/hook/ament_prefix_path.sh

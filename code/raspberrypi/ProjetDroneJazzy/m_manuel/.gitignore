@@ -1,0 +1,9 @@
+rpi/ros_ws/
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+Backup*/

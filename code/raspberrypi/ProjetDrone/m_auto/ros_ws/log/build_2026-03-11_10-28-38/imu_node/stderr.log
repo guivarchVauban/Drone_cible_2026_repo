@@ -1,5 +1,0 @@
-  File "/root/ros_ws/install/imu_node/lib/python3.10/site-packages/imu_node/imu_publisher.py", line 1
-    kkimport rclpy
-             ^^^^^
-SyntaxError: invalid syntax
-

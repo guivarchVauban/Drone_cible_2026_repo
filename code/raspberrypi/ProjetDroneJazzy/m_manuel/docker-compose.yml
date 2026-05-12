@@ -1,0 +1,14 @@
+services:
+  ros2_tuto_robot:
+    build: .
+    container_name: ros2_manuel_jz
+    restart: always
+    network_mode: host
+    privileged: true
+    volumes:
+      - "/home/util/ProjetDrone/m_manuel/ros_ws:/root/ros_ws"
+    environment:
+      - ROS_DOMAIN_ID=52
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    tty: true
+
