@@ -1,3 +1,2 @@
 [console_scripts]
 bridge_manette_node = bridge_manette.bridge_manette_node:main
-

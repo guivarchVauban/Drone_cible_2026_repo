@@ -12,6 +12,9 @@ setup.py
 bridge_manette/__init__.py
 bridge_manette/bridge_manette_node.py
 bridge_manette/bridge_manette_node_back.py
+bridge_manette/bridge_manette_node_gps.py
+bridge_manette/bridge_manette_node_ok.py
+bridge_manette/bridge_manette_node_rec.py
 resource/bridge_manette
 test/test_copyright.py
 test/test_flake8.py

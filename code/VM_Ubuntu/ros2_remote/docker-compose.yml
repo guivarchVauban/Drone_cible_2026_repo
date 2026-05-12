@@ -12,7 +12,7 @@ services:
     tty: true
     command: |
       bash -c '
-        source /opt/ros/humble/setup.bash
+        source /opt/ros/jazzy/setup.bash
 
         ros2 run joy joy_node &
        '
