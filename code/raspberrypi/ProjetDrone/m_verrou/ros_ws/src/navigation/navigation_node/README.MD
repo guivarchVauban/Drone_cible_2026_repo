@@ -1,4 +1,4 @@
-# 🎯 navigation_verrou — Nœud ROS 2 de suivi de cible
+#navigation_verrou — Nœud ROS 2 de suivi de cible
 
 Nœud ROS 2 assurant le **suivi automatique d'un bateau** détecté par YOLOv5.  
 Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en continu la cible dans son champ de vision et avance vers elle.
