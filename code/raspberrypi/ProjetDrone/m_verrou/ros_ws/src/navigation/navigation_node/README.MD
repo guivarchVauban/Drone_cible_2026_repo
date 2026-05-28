@@ -8,8 +8,11 @@ Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en co
 ## Fonctionnement
 
 ```
-/boat_detection_json ──► NavigationNode ──► /cmd_vel
-/robot_mode          ──►                
+boat_detector        NavigationNode       robot_controller
+     │                     │                     │
+     │─/boat_detection_json►│                     │
+     │                     │────/cmd_vel─────────►│
+/robot_mode ────────────►  │
 ```
 
 ### Pipeline
@@ -25,7 +28,7 @@ Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en co
 | Paramètre | Valeur | Description |
 |---|---|---|
 | `linear.x` | `0.6` m/s | Vitesse d'avance constante vers la cible |
-| `angular.z` | `-Kp × error` | Correction angulaire (gouvernail) |
+| `angular.z` | `-Kp * error` | Correction angulaire (gouvernail) |
 | `Kp` | `0.002` | Gain proportionnel |
 | `dead_zone` | `20 px` | Zone morte — évite les oscillations si cible déjà centrée |
 
@@ -33,7 +36,7 @@ Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en co
 
 ## Topics
 
-| Topic | Type | Rôle |
+| Topic | Type | Role |
 |---|---|---|
 | `/boat_detection_json` | `std_msgs/String` | **Entrée** — coordonnées JSON de la bounding box |
 | `/robot_mode` | `std_msgs/String` | **Entrée** — mode actif (`"2"` = verrouillage) |
@@ -58,7 +61,7 @@ Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en co
 
 ## Prérequis
 
-- ROS 2 (Humble ou supérieur)
+- ROS 2 Humble (ou supérieur)
 - Python 3.8+
 - Package `geometry_msgs`
 - Nœud `boat_detector` actif (publie sur `/boat_detection_json`)
@@ -68,27 +71,20 @@ Lorsque le mode verrouillage est actif (`robot_mode = 2`), le drone centre en co
 
 ## Lancement
 
-### 1. Sans Docker
+### 1. Directement avec `ros2 run`
 
 ```bash
 # Sourcer ROS 2
 source /opt/ros/humble/setup.bash
 
+# Sourcer le workspace du projet
+source ~/ros2_ws/install/setup.bash
+
 # Lancer le nœud
-python3 navigation_verrou.py
+ros2 run drone_cible navigation_verrou
 ```
 
-### 2. Avec Docker (configuration du projet)
-
-```bash
-# Construire l'image
-docker build -t navigation_verrou .
-
-# Lancer le conteneur
-docker run --rm --network host navigation_verrou
-```
-
-### 3. Avec le docker-compose du projet
+### 2. Avec le docker-compose du projet
 
 ```bash
 docker-compose up navigation_verrou
@@ -117,9 +113,9 @@ ros2 topic pub /boat_detection_json std_msgs/String \
 ros2 topic echo /cmd_vel
 ```
 
-> **Résultat attendu :** `linear.x ≈ 0.6`, `angular.z < 0` (correction vers la droite)
+> **Résultat attendu :** `linear.x = 0.6`, `angular.z < 0` (correction vers la droite)
 
-### Désactiver le suivi (mode sécurité)
+### Désactiver le suivi
 
 ```bash
 ros2 topic pub /robot_mode std_msgs/String "data: '3'"
@@ -133,12 +129,12 @@ ros2 topic pub /robot_mode std_msgs/String "data: '3'"
 
 ```
 navigation_verrou.py
-├── class NavigationNode(Node)
-│   ├── __init__()             # Initialisation subscribers/publisher, timer 20 Hz
-│   ├── mode_callback()        # Mise à jour du robot_mode
-│   ├── detection_callback()   # Réception et parsing du JSON YOLOv5
-│   └── control_loop()         # Boucle de contrôle — calcul et publication /cmd_vel
-└── main()                     # Point d'entrée ROS 2
+├── NavigationNode(Node)
+│   ├── __init__()              # Subscribers, publisher, timer 20 Hz
+│   ├── mode_callback()         # Mise à jour du robot_mode
+│   ├── detection_callback()    # Réception et parsing du JSON YOLOv5
+│   └── control_loop()          # Calcul et publication sur /cmd_vel
+└── main()                      # Point d'entrée ROS 2
 ```
 
 ---
@@ -147,10 +143,10 @@ navigation_verrou.py
 
 | Situation | Comportement |
 |---|---|
-| `robot_mode ≠ 2` | Aucune commande publiée — drone immobile |
+| `robot_mode != 2` | Aucune commande publiée — drone immobile |
 | Aucune détection reçue | Aucune commande publiée — drone immobile |
 | Erreur `< 20 px` (zone morte) | `angular.z = 0` — pas de correction angulaire |
-| Nœud arrêté brutalement | `/cmd_vel` cesse d'être publié — le `robot_controller` stoppe les moteurs |
+| Nœud arrêté brutalement | `/cmd_vel` cesse d'être publié — `robot_controller` stoppe les moteurs |
 
 ---
 
