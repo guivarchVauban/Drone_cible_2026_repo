@@ -74,4 +74,8 @@ ros2 run bridge_manette bridge_manette_node
 
 - Port série disponible sur `/dev/ttyUSB0` (module LoRa connecté en UART)
 - Package `pyserial` installé
-- Joystick connecté et nœud `joy` actif (ex: `ros2 run joy joy_node`)
+- Joystick connecté et vérifier qu'il est bien brancher en `/dev/input/js0`. Si vous êtes sur une VM, il sera très certainement en `js2`. Si ce n'est pas le cas alors lancer la commande : 
+```bash
+sudo ln -sf /dev/input/js2 /dev/input/js0
+```
+- nœud `joy` actif (ex: `ros2 run joy joy_node`)
