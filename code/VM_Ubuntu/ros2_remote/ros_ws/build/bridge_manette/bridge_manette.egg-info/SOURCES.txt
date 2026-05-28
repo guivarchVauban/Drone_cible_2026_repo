@@ -11,10 +11,14 @@ setup.py
 ../../build/bridge_manette/bridge_manette.egg-info/zip-safe
 bridge_manette/__init__.py
 bridge_manette/bridge_manette_node.py
-bridge_manette/bridge_manette_node_back.py
+bridge_manette/bridge_manette_node_?.py
+bridge_manette/bridge_manette_node_??.py
+bridge_manette/bridge_manette_node_boussole.py
 bridge_manette/bridge_manette_node_gps.py
-bridge_manette/bridge_manette_node_ok.py
+bridge_manette/bridge_manette_node_mvnt.py
 bridge_manette/bridge_manette_node_rec.py
+config/joy_params.yaml
+launch/manette.launch.py
 resource/bridge_manette
 test/test_copyright.py
 test/test_flake8.py
