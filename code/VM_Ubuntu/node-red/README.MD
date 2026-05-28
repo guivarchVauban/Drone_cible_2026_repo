@@ -56,7 +56,10 @@ ros2 run web_video_server web_video_server
 
 ---
 
-## Affichage des waypoints GPS (optionnel)
+## Affichage des waypoints GPS (Alternative simple)
+Se connecter à l'IP du drone avec un logiciel d'échange de fichier comme winscp ou filezilla, prendre le fichier sur la Raspberry et le mettre sur la VM au bon emplacement.
+
+## Affichage des waypoints GPS (Alternative avancée)
 
 Si des points GPS ont été préparés avant la mission et stockés en JSON sur la Raspberry Pi, suivre les étapes ci-dessous pour les monter et les rendre accessibles à Node-RED.
 
