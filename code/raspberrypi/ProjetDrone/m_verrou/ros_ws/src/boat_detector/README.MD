@@ -1,4 +1,4 @@
-# 🎯 navigation_verrouillage — Nœud ROS 2 de verrouillage automatique de cible
+#  navigation_verrouillage — Nœud ROS 2 de verrouillage automatique de cible
 
 Nœud ROS 2 assurant le **verrouillage automatique d’un bateau détecté par YOLOv8**.
 Lorsque le mode verrouillage est actif (`robot_mode = 2`), le robot analyse les coordonnées de la cible détectée et génère automatiquement des commandes de navigation afin de garder le bateau centré dans le champ de vision.
