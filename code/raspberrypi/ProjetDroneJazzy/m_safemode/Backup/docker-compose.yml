@@ -14,5 +14,11 @@ services:
     volumes:
       - "/home/util/ProjetDrone/m_safemode/ros_ws:/root/ros_ws"
       - /dev:/dev
-
+      - /var/run/docker.sock:/var/run/docker.sock
     tty: true
+
+    command: >
+      bash -c "
+      source /opt/ros/jazzy/setup.bash &&
+      python3 /root/ros_ws/src/mode/robot_mode_manager.py
+      "
