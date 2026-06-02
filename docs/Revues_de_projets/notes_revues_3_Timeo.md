@@ -9,7 +9,8 @@
 - Exporter le png du schéma en 600 voir 900 DPI
 - Vérifier le diaporama pour ne pas avoir de SysML/Images qui disparaisent
 - Bien le tableau Excel pour le protocole
-- Mettre davantages d'images pour rendre plus convivial 
+- Mettre davantages d'images pour rendre plus convivial
+- Conclusion plus rapide si pas assez de temps
 # Remarques
 
 - Dire plutôt intégration Native (avec librairie) que Naturelle pour Python et ROS
