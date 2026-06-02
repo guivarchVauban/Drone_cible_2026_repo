@@ -32,7 +32,7 @@
 
 - [ ] **2.3** Vérifier les données GPS :
   ```bash
-  ros2 topic echo /gps   # (adapter selon le nom du topic)
+  ros2 topic echo /gps
   ```
 
 ---
