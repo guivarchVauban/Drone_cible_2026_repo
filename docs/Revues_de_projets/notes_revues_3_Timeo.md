@@ -14,17 +14,17 @@
 # Remarques
 
 - Dire plutôt intégration Native (avec librairie) que Naturelle pour Python et ROS
-- Passage en Ubuntu 24.04 si je ne me trompe pas (compatibilité avec RoS 2 Jazzy)
+- Passage en Ubuntu 24.04 si je ne me trompe pas (compatibilité avec RoS 2 Jazzy) => rajouter à D21)
 - Confusion entre Bit/Octet
 - Gagner du temps sur la présentation commune en ne rentrant
-- Préciser dB sur le tableau SNR
+- Préciser dB sur le tableau SNR + ajouter les def de RSSI et SNR
 - Lire la config des modules LoRa et être capable de justifier la config
 
 # Questions
 
 - Que se passe t-il si une data est égale à 0x52 ?
 - Signification RSSI/SNR
-- Jusqu'à quel niveau de RSSI on peut espérer recevoir correctement ?
+- Jusqu'à quel niveau de RSSI on peut espérer recevoir correctement ? (voir doc lora LA66)
 - Pourquoi 18/37 trames/s? Essayer de justifier mieux, sans dire "l'IA m'a dit" mais en demandant à l'IA davantage de justification.
 
 # Démo
