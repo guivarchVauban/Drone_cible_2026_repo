@@ -5,19 +5,19 @@
 # Diapo
 
 - Diapo de qualité
-- Mettre le sommaire au début
-- Exporter le png du schéma en 600 voir 900 DPI
-- Vérifier le diaporama pour ne pas avoir de SysML/Images qui disparaisent
+- [ ] Mettre le sommaire au début
+- [ ] Exporter le png du schéma en 600 voir 900 DPI
+- [ ] Vérifier le diaporama pour ne pas avoir de SysML/Images qui disparaisent
 - Bien le tableau Excel pour le protocole
-- Mettre davantages d'images pour rendre plus convivial
+- [ ] Mettre davantages d'images pour rendre plus convivial
 - Conclusion plus rapide si pas assez de temps
 # Remarques
 
 - Dire plutôt intégration Native (avec librairie) que Naturelle pour Python et ROS
-- Passage en Ubuntu 24.04 si je ne me trompe pas (compatibilité avec RoS 2 Jazzy) => rajouter à D21)
+- [ ] Passage en Ubuntu 24.04 si je ne me trompe pas (compatibilité avec RoS 2 Jazzy) => rajouter à D21)
 - Confusion entre Bit/Octet
 - Gagner du temps sur la présentation commune en ne rentrant
-- Préciser dB sur le tableau SNR + ajouter les def de RSSI et SNR
+- [ ] Préciser dB sur le tableau SNR + ajouter les def de RSSI et SNR
 - Lire la config des modules LoRa et être capable de justifier la config
 
 # Questions
