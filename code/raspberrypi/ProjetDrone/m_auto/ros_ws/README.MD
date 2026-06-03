@@ -1,6 +1,6 @@
-#Drone Cible
+# Drone Cible
 
-##Informations générales
+## Informations générales
 
 **Mot de passe VM Ubuntu :**
 
@@ -10,7 +10,7 @@ Projet_Drone2026
 
 ---
 
-##Compilation d'un seul nœud
+## Compilation d'un seul nœud
 
 ```bash
 colcon build --packages-select [nom_du_noeud]
@@ -18,9 +18,9 @@ colcon build --packages-select [nom_du_noeud]
 
 ---
 
-#Ordre de lancement des nœuds
+# Ordre de lancement des nœuds
 
-##1. IMU Node
+## 1. IMU Node
 
 ```bash
 source install/setup.bash
@@ -29,7 +29,7 @@ ros2 run imu_node imu_data
 
 ---
 
-##2. NavSat Driver
+## 2. NavSat Driver
 
 ```bash
 source install/setup.bash
@@ -41,7 +41,7 @@ ros2 run nmea_navsat_driver nmea_serial_driver \
 
 ---
 
-##3. Node Consigne
+## 3. Node Consigne
 
 ```bash
 source install/setup.bash
@@ -50,7 +50,7 @@ ros2 run node_consigne node_consigne
 
 ---
 
-##4. EKF (Extended Kalman Filter)
+## 4. EKF (Extended Kalman Filter)
 
 ```bash
 source install/setup.bash
@@ -61,7 +61,7 @@ ros2 run robot_localization ekf_node \
 
 ---
 
-##5. NavSat Transform
+## 5. NavSat Transform
 
 ```bash
 source install/setup.bash
@@ -77,7 +77,7 @@ ros2 run robot_localization navsat_transform_node \
 
 ---
 
-##6. Navigation Automatique
+## 6. Navigation Automatique
 
 ```bash
 source install/setup.bash
@@ -86,9 +86,9 @@ ros2 run node_navigation_auto node_navigation_auto
 
 ---
 
-#Configuration de la simulation
+# Configuration de la simulation
 
-##Désactiver ou activer une fonctionnalité
+## Désactiver ou activer une fonctionnalité
 
 Fichier concerné :
 
@@ -130,7 +130,7 @@ et relancer la simulation :
 
 ---
 
-#Publication sur `set_robot_mode`
+# Publication sur `set_robot_mode`
 
 ```bash
 ros2 topic pub /set_robot_mode std_msgs/msg/String \
