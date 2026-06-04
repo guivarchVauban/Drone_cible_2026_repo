@@ -133,3 +133,5 @@ et relancer la simulation :
 ros2 topic pub /set_robot_mode std_msgs/msg/String \
 "data: '1'"
 ```
+
+pour regler les frequence des composant: /home/gatien/training_zone/src/vrx/vrx_urdf/wamv_gazebo/urdf/components/wamv_imu.xacro
