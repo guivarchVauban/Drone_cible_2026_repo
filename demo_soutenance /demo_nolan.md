@@ -38,10 +38,10 @@
 ```bash
   ros2 topic echo /etat_node
 ```
-Pour rappel :
-Aucun problème = 54
-problème nœud dans docker manuel = 55
-problème nœud dans docker auto = 66
+**Pour information :**<br>
+<br>Aucun problème = 54<br>
+problème nœud dans docker manuel = 55<br>
+problème nœud dans docker auto = 66<br>
 problème nœud dans docker verrou = 77
 
 ## 4. watchdog radio
