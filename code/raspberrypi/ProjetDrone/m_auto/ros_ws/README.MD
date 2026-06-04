@@ -54,9 +54,7 @@ ros2 run node_consigne node_consigne
 
 ```bash
 source install/setup.bash
-ros2 run robot_localization ekf_node \
-  --ros-args \
-  --params-file ~/ros_ws/config/ekf.yaml
+ros2 run robot_localization ekf_node --ros-args --params-file ~/ros_ws/config/ekf.yaml
 ```
 
 ---
@@ -67,8 +65,7 @@ ros2 run robot_localization ekf_node \
 source install/setup.bash
 
 ros2 run robot_localization navsat_transform_node \
-  --ros-args \
-  --params-file ~/ros_ws/config/navsat.yaml \
+  --ros-args --params-file ~/ros_ws/config/navsat.yaml \
   -r gps/fix:=/fix \
   -r imu/data:=/imu/data \
   -r odometry/filtered:=/odometry/filtered \
