@@ -4,30 +4,26 @@ ekf_filter_node:
     sensor_timeout: 0.1
     two_d_mode: true
     publish_tf: true
-
     map_frame: map
     odom_frame: odom
-    base_link_frame: base_link
+    base_link_frame: wamv/wamv/base_link
     world_frame: odom
 
-    # GPS converti en odométrie cartésienne par navsat_transform_node
-    # [x, y, z, roll, pitch, yaw, vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az]
     odom0: odometry/gps
-    odom0_config: [true,  true,  false,   # x, y → position GPS utilisée
-                   false, false, false,   # pas d'orientation GPS
-                   false, false, false,   # pas de vitesse GPS
-                   false, false, false,   # pas de vitesse angulaire GPS
-                   false, false, false]   # pas d'accélération GPS
+    odom0_config: [true,  true,  false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false]
     odom0_differential: false
+    odom0_relative: false
 
-    # IMU : orientation complète + vitesses angulaires + accélérations
-    # [x, y, z, roll, pitch, yaw, vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az]
     imu0: /imu/data
-    imu0_config: [false, false, false,   # pas de position IMU
-                  true,  true,  true,    # roll, pitch, yaw utilisés
-                  false, false, false,   # pas de vitesse linéaire
-                  true,  true,  true,    # vitesses angulaires utilisées
-                  false,  false, false]   # seulement ax utilisée
+    imu0_config: [false, false, false,
+                  false, false, true,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]
     imu0_differential: false
     imu0_relative: false
     imu0_remove_gravitational_acceleration: true
