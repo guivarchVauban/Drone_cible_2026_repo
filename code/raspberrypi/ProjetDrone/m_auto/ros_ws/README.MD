@@ -16,6 +16,8 @@ Projet_Drone2026
 colcon build --packages-select [nom_du_noeud]
 ```
 
+---
+
 ## Publication sur `set_robot_mode`
 
 ```bash
@@ -132,7 +134,7 @@ et relancer la simulation :
 ./launch.sh
 ```
 
-Pour modifier les frequence des composants: 
+Pour modifier les frequences des composants: 
 
 ```text
 /home/gatien/training_zone/src/vrx/vrx_urdf/wamv_gazebo/urdf/components/wamv_imu.xacro
