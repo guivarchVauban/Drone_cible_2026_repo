@@ -16,9 +16,16 @@ Projet_Drone2026
 colcon build --packages-select [nom_du_noeud]
 ```
 
+## Publication sur `set_robot_mode`
+
+```bash
+ros2 topic pub /set_robot_mode std_msgs/msg/String \
+"data: '1'"
+```
+
 ---
 
-# Ordre de lancement des nœuds
+# Ordre de lancement des nœuds du mode autonome
 
 ## 1. IMU Node
 
@@ -85,7 +92,7 @@ ros2 run node_navigation_auto node_navigation_auto
 
 # Configuration de la simulation
 
-## Désactiver ou activer une fonctionnalité
+## Désactiver, activer ou modifier une fonctionnalité
 
 Fichier concerné :
 
@@ -125,13 +132,8 @@ et relancer la simulation :
 ./launch.sh
 ```
 
----
+Pour modifier les frequence des composants: 
 
-# Publication sur `set_robot_mode`
-
-```bash
-ros2 topic pub /set_robot_mode std_msgs/msg/String \
-"data: '1'"
+```text
+/home/gatien/training_zone/src/vrx/vrx_urdf/wamv_gazebo/urdf/components/wamv_imu.xacro
 ```
-
-pour regler les frequence des composant: /home/gatien/training_zone/src/vrx/vrx_urdf/wamv_gazebo/urdf/components/wamv_imu.xacro
